@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<title>jQuery Mobile Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!--<link rel="stylesheet" href="css/quincenc.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />-->
+  <link rel="stylesheet" href="css/jquerymobile.css">
+  <link rel="stylesheet" href="css/style.css">
+<!--<script src="js/jquery-1.11.1.min.js"></script>
+	 <script src="js/jquery.mobile-1.4.2.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquerymobile.js"></script>
+</head>
+<body>
+<section data-role="page" id="home">
+   <header data-theme="b" data-role="header">
+      <h2>Full Bar, Patio, Great People</h2>
+      <a href="#" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+	<article data-role="content" id="home-content">
+		<img src="images/logo.png" alt="Quince NC Logo">	
+		<div data-role="controlgroup">
+        	<a href="#menu" class="ui-btn ui-icon-grid ui-btn-icon-left
+            ui-corner-all ui-btn-b">Our Menu</a>
+
+        	<a href="#" class="ui-btn ui-icon-location ui-btn-icon-left
+            ui-corner-all ui-btn-b">Location</a>
+        	<a href="#" class="ui-btn ui-icon-clock ui-btn-icon-left
+            ui-corner-all ui-btn-b">Hours</a>
+        	<a href="#blog" class="ui-btn ui-icon-edit ui-btn-icon-left
+            ui-corner-all ui-btn-b">Peter's Blog Corner</a>
+      </div>
+	</article><!-- /content -->
+    <footer data-theme="b" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#" class="ui-btn ui-icon-grid ui-btn-icon-top">Menu</a></li>
+ 
+          <li><a href="#" class="ui-btn ui-icon-location ui-btn-icon-top">Location</a></li>
+          <li><a href="#" class="ui-btn ui-icon-clock ui-btn-icon-top">Hours</a></li>
+         <li><a href="#blog" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+         
+        </ul>
+      </nav>      
+    </footer><!-- footer -->
+</section><!-- /page -->
+
+<!-- page: blog -->
+<section id="blog" data-role="page" data-title="Blog">
+  <header data-theme="b" data-role="header">
+      <h2>Full Bar, Patio, Great People</h2>
+      <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+	<div data-role="content" id="postList">
+	</div>
+    <footer data-theme="b" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#" class="ui-btn ui-icon-grid ui-btn-icon-top">Menu</a></li>
+ 
+          <li><a href="#" class="ui-btn ui-icon-location ui-btn-icon-top">Location</a></li>
+          <li><a href="#" class="ui-btn ui-icon-clock ui-btn-icon-top">Hours</a></li>
+         <li><a href="#blog" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+         
+        </ul>
+      </nav>      
+    </footer><!-- footer -->
+</section>
+<!-- page: menu -->
+<section id="menu" data-role="page" data-title="Menu">
+    <header data-theme="b" data-role="header">
+      <h2>Full Bar, Patio, Great People</h2>
+      <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+    </header><!-- header -->
+    <article data-role="content" id="menu-content">
+      <img src="images/logo.png" alt="Quince NC Logo">  
+      <h1>Lunch</h1>
+
+        <p>Sample Lunch Menu</p>
+
+        <h2>Entrees</h2>
+
+        <p>Each entree comes with your choice of soup or salad, plus fresh-baked rolls or cornbread muffins.</p>
+
+        <h2>Flame-broiled cheeseburger</h2> 
+        <p>8.99</p>
+
+        <p>A cheeseburger is a hamburger with cheese that has been added to it. Traditionally, the cheese is placed on top of the patty, but the burger can include many variations in structure, ingredients, and composition. The term itself is a portmanteau of the words "cheese" and "hamburger."</p>
+
+        <h2>Chimichanga Specially Prepared</h2> 
+        <p>12.99</p>
+
+        <p>Chimichanga is typically prepared by filling a flour tortilla with a wide range of ingredients, most commonly rice, cheese, machaca, carne adobada, or shredded chicken, and folding it into a rectangular package. It is then deep-fried and can be accompanied with salsa, guacamole, sour cream and/or cheese.</p>
+
+        <h2>Deluxe pizza</h2> 
+        <p>11.99</p>
+
+        <p>Due to the wide influence of Italian and Greek immigrants in American culture, the US has developed regional forms of pizza, some bearing only a casual resemblance to the Italian original.</p>
+
+        <h2>Feta Salad Healthy Eating Choice</h2><p>9.99</p>
+
+        <p>Salads are generally served with a dressing, as well as various garnishes such as nuts or croutons, and sometimes with the addition of meat, fish, pasta, cheese, eggs, or whole grains.</p>
+
+        <h2>Sushi platter Vegetarian Dish</h2><p>13.99</p>
+
+        <p>Sushi is a Japanese food consisting of cooked vinegared rice (shari) combined with other ingredients (neta). Neta and forms of sushi presentation vary, but the ingredient which all sushi have in common is shari. The most common neta is seafood.</p>
+
+        <h2>Desserts</h2>
+
+        <p>Delicious sweets, baked up fresh each day by our awesome pastry chef. The perfect end to your meal!</p>
+
+    </article><!-- /content -->
+    <footer data-theme="b" data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+   
+            <li><a href="#" class="ui-btn ui-icon-location ui-btn-icon-top">Location</a></li>
+            <li><a href="#hours" class="ui-btn ui-icon-clock ui-btn-icon-top">Hours</a></li>
+           <li><a href="#blog" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+           
+          </ul>
+        </nav>      
+    </footer><!-- footer -->
+  </section><!-- page: menu-->
+</body>
+</html>
